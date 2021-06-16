@@ -1,9 +1,5 @@
 #include<stdio.h>
 
-int main(){
-	helloWorld();
-	return 0;
-}
 
 void helloWorld(){
 
@@ -12,3 +8,7 @@ void helloWorld(){
 
 }
 
+int main(){
+	helloWorld();
+	return 0;
+}
