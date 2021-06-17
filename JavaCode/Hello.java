@@ -3,4 +3,10 @@ public class Hello{
 		System.out.println("Hello World");
 	}
 
+	public void printHello(){
+		
+		System.out.println("Hello World");
+	}
 }
+
+
