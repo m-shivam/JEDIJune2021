@@ -1,12 +1,11 @@
+
+
 #include<stdio.h>
 
-
-void helloWorld(){
-
-	printf("Hello World");
-	printf("Awesome World");
-
+void greeting(){
+	printf("Good morning!!");
 }
+
 
 int main(){
 	helloWorld();
