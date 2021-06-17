@@ -1,11 +1,14 @@
 public class Hello{
 	public static void main(String[] args){
-		System.out.println("Hello World");
+		helloWorld();
 	}
 
-	public void printHello(){
-		
-		System.out.println("Hello World");
+	public void helloWorld(){
+		System.out.println("Hello, World!");
+	}
+
+	public void greeting(String name){
+		System.out.println("Hey, How are you doing?"+name);
 	}
 }
 

@@ -1,14 +1,13 @@
+
+
 #include<stdio.h>
 
-
-void helloWorld(){
-
-	printf("Hello World");
-	printf("Awesome World");
-
+void greeting(char name[]){
+	printf("Hey, Where was you? ... %s", name);
 }
 
+
 int main(){
-	helloWorld();
+	char name[] = "Alia Bhatt";
 	return 0;
 }
